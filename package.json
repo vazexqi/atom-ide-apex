@@ -1,10 +1,9 @@
 {
-  "name": "ide-apex",
-  "main": "./lib/ide-apex",
+  "name": "atom-ide-apex",
+  "main": "./lib/extension",
   "version": "0.0.1",
   "description": "Provides support for the Apex Language Server in Atom.",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/atom/ide-apex",
   "license": "MIT",
   "engines": {
@@ -12,5 +11,9 @@
   },
   "dependencies": {
     "atom-languageclient": "^0.6.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.0",
+    "shelljs": "^0.7.8"
   }
 }
