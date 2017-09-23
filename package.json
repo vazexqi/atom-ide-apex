@@ -5,14 +5,12 @@
   "description": "Provides support for the Apex Language Server in Atom.",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "ide-apex:toggle"
-  },
   "repository": "https://github.com/atom/ide-apex",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-languageclient": "^0.6.1"
   }
 }
