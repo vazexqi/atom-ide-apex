@@ -7,7 +7,15 @@
   "repository": "https://github.com/atom/ide-apex",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.21.0"
+  },
+  "configSchema": {
+    "javaHome": {
+      "type": "string",
+      "default": "",
+      "description":
+        "Absolute path to Java 8 home folder used to launch the Java language server."
+    }
   },
   "dependencies": {
     "atom-languageclient": "^0.6.1"
@@ -15,5 +23,40 @@
   "devDependencies": {
     "prettier": "^1.7.0",
     "shelljs": "^0.7.8"
+  },
+  "enhancedScopes": ["source.apex"],
+  "consumedServices": {
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeLinterV2"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatip"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
+    },
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlines"
+      }
+    }
   }
 }
