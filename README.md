@@ -3,6 +3,11 @@ Introduction
 
 This contains an Atom package for working with [Atom IDE](https://ide.atom.io/) and the Apex Language Server.
 
+Demo
+===
+
+![Demonstration of working features](https://github.com/vazexqi/atom-ide-apex/raw/master/screenshots/apex-lsp-in-atom-ide.gif "Demonstration of working features")
+
 Disclaimer
 ===
 
