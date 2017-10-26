@@ -17,7 +17,7 @@
     }
   },
   "dependencies": {
-    "atom-languageclient": "^0.6.4"
+    "atom-languageclient": "file:patch/atom-languageclient-0.6.5.tgz"
   },
   "devDependencies": {
     "prettier": "^1.7.0",
