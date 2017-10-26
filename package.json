@@ -13,18 +13,19 @@
     "javaHome": {
       "type": "string",
       "default": "",
-      "description":
-        "Absolute path to Java 8 home folder used to launch the Java language server."
+      "description": "Absolute path to Java 8 home folder used to launch the Java language server."
     }
   },
   "dependencies": {
-    "atom-languageclient": "^0.6.1"
+    "atom-languageclient": "^0.6.4"
   },
   "devDependencies": {
     "prettier": "^1.7.0",
     "shelljs": "^0.7.8"
   },
-  "enhancedScopes": ["source.apex"],
+  "enhancedScopes": [
+    "source.apex"
+  ],
   "consumedServices": {
     "linter-indie": {
       "versions": {
