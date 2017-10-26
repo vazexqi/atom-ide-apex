@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Provides support for the Apex Language Server in Atom.",
   "keywords": [],
-  "repository": "https://github.com/atom/ide-apex",
+  "repository": "https://github.com/vazexqi/atom-ide-apex",
   "license": "MIT",
   "engines": {
     "atom": ">=1.21.0"
