@@ -22,6 +22,18 @@ Community Packages (8) /Users/nchen/.atom/packages
 └── vim-mode-plus@1.14.1
 ```
 
+Installation
+===
+```
+cd ~/.atom/packages
+git clone https://github.com/vazexqi/atom-ide-apex
+```
+If you receive error "Cannot find module 'atom-languageclient'" on startup, try:
+```
+npm install -g atom-languageclient
+npm link atom-languageclient
+```
+
 Demo
 ===
 
