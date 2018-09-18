@@ -18,7 +18,8 @@ Community Packages (7) /Users/nchen/.atom/packages
 ├── platformio-ide-terminal@2.8.4
 ├── prettier-atom@0.55.2
 ├── pretty-json@2.0.3
-└── vim-mode-plus@1.34.0```
+└── vim-mode-plus@1.34.0
+```
 
 Demo
 ===
