@@ -11,16 +11,14 @@ Be sure to follow the instructions at https://ide.atom.io/. In particular, ensur
 For reference, here are the list of plug-ins I have in my Atom installation:
 
 ```
-Community Packages (8) /Users/nchen/.atom/packages
-├── atom-ide-ui@0.5.3
-├── ide-typescript@0.6.2
+Community Packages (7) /Users/nchen/.atom/packages
+├── atom-ide-ui@0.13.0
+├── ide-typescript@0.7.6
 ├── language-typescript-grammars-only@1.6.0
-├── linter@2.0.0 (disabled)
-├── platformio-ide-terminal@2.7.0
-├── prettier-atom@0.40.0
-├── pretty-json@1.6.4
-└── vim-mode-plus@1.14.1
-```
+├── platformio-ide-terminal@2.8.4
+├── prettier-atom@0.55.2
+├── pretty-json@2.0.3
+└── vim-mode-plus@1.34.0```
 
 Demo
 ===
